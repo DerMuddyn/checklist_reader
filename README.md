@@ -16,11 +16,11 @@ Disclaimer:
 Installation:
   There is no installation necessary. Just run the binary or if you like, run the python 
   code directly or pack it into a binary yourself. 
-  For the casual user, just clicken on the .exe file should work.
+  For the casual user, just click on the .exe file should work.
 
 Usage:
   Using the "open checklist" button, just load any .txt file into the application.
-  The checklist needs to be in a simple line by line text form
+  The checklist needs to be in a simple line by line text form.
 
   The application permanently captures all gamecontroller inputs and displays the
   captured button. By pressing the "set check button" button, you can set the last
