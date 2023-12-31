@@ -1,6 +1,6 @@
 -----------  Flight Sim - Checklist Reader v 0.1 - by Martin Ritter ---------------------
 
-This is an attempt to create my very own checklist reader for MS Flightsimultar. 
+This is an attempt to create my very own checklist reader for MS Flightsimultor. 
 It does however work with any kind of sim, or even for whatever purpous you want it to.
 All it does, at its current state, is vocaly call out a checklist, or any txt file presented,
 line by line on the press of a game controller button.
