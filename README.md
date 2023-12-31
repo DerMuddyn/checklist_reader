@@ -15,13 +15,13 @@ Disclaimer:
   There are no guaranties that any of this works ;-)
 
 Installation:
-  The Folder "Python code" contains the plain code version in case want to run or
+  The Folder "Python code" contains the plain code version in case you want to run or
   pack this yourself or even want to make it better. If you just want to fly, you can just delete the folder.
 
-  There is no installation necessary. Just run the binary or if you like, run the python 
+  To use it, there is no installation necessary. Just run the "checklist reader.exe" or if you like, run the python 
   code directly or pack it into a binary yourself. Note, that everything was built and tested 
   in Python 3.11
-  For the casual user, just clicking on the .exe file should work.
+  For the casual user, just clicking on the "checklist reader.exe" file should work.
 
 Usage:
   Using the "open checklist" button, just load any .txt file into the application.
