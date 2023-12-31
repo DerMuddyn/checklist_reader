@@ -18,7 +18,7 @@ Installation:
   The Folder "Python code" contains the plain code version in case you want to run or
   pack this yourself or even want to make it better. If you just want to fly, you can just delete the folder.
 
-  To use it, there is no installation necessary. Just run the "checklist reader.exe" or if you like, run the python 
+  To use my pre packt app, there is no installation necessary. Just run the "checklist reader.exe" or if you like, run the python 
   code directly or pack it into a binary yourself. Note, that everything was built and tested 
   in Python 3.11
   For the casual user, just clicking on the "checklist reader.exe" file should work.
