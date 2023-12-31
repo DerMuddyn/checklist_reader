@@ -5,7 +5,7 @@ It does however work with any kind of sim, or even for whatever purpous you want
 All it does, at its current state, is vocaly call out a checklist, or any txt file presented,
 line by line on the press of a game controller button.
 Alternatively the progression throug the checklist can also be triggered by optional
-voice recignition, on the predefined trigger word "check"
+voice recognition, on the predefined trigger word "check"
 
 Disclaimer:
   Please note, that I am not a programmer what so ever. I just needet this tool to fly
