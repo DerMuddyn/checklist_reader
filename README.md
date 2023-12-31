@@ -14,6 +14,9 @@ Disclaimer:
   Also the voice recognition is super early "alpha stage" 
   There are no guaranties that any of this works ;-)
 
+  Still, this was a lot work for me, so if like what I did please consider leaving a small donation
+  https://www.paypal.com/donate/?hosted_button_id=5XWVFVYADYHBE
+
 Installation:
   The Folder "Python code" contains the plain code version in case you want to run or
   pack this yourself or even want to make it better. If you just want to fly, you can just delete the folder.
