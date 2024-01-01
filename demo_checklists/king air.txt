@@ -1,0 +1,312 @@
+Preflight Inspection Complete
+Emergency Lights On (at night)
+Airstair Door Locked
+Emergency Exits Unlocked
+Cabin Loading Complete
+Seatbelts & Harnesses Secure
+Parking Brake Set
+Control Locks Removed
+Standby & Crossfeed Pumps Off
+Aux Transfer Pumps Auto
+Pilot Circuit Breakers All In
+Battery Bus Norm
+Gang Bar Down
+External Power Off
+Avionics Master Off
+Auto-Ignition Off
+AC Inverters Off
+Bus Sense Norm
+Bus Ties Norm
+Engine Anti-Ice As Required
+Anti-Ice Actuators Main
+Starters Off
+Auto-Feather Off
+Landing Gear Down
+Exterior Lights Off
+Ice Protection Off
+Prop Sync Off
+Power Levers Ground Idle
+Propeller Levers Full Forward
+Condition Levers Cutoff
+Flaps Up
+Friction Locks Set
+Trims Centered
+Oxy. Man. Dropout Off (Pushed)
+Passenger Oxygen Ready (Pull)
+Cabin Press. Mode Press
+Rudder Boost On
+Electric Trim On
+Cabin Master Off
+Cabin Lights As Required
+Cabin Accessories As Desired
+No Smoking & FSB On
+Vent Blower Low
+Cabin Temperature As Desired
+Temperature Mode Off
+Bleed Air Valves Envir Off
+Aft Blower As Required
+Electric Heater Off
+Oxygen Pressure 1550-1850 psi
+Alternate Static Air Normal
+Copilot Circuit Breakers All In
+Lighting Master As Required
+Windshield Wipers Off
+Cockpit Lighting As Desired
+Microphone Sources Norm
+Battery Master On
+Battery Volts 23V min
+Annunciators Test
+Annunciator Brightness Set
+Fuel Quantities Check
+Checklist complete.
+Engine Start (Battery)
+Beacon Light On
+Propeller Area Clear
+Gen Ties Man Close (at night)
+Right Starter Start
+Right Condition Lever Low Idle Max Ng Above 12%
+ITT Less than 1090
+Oil Temp & Press Within Limits
+Right Starter Off at 50% Ng
+R Oil & Fuel Press Annun. Extinguished
+Right Generator Reset then On
+R DC GEN Annunciator Extinguished
+R GEN Load 10-50%
+R GEN Volts 28V
+Batt Amps Positive
+Right Condition Lever High Idle
+Propeller Area Clear
+Left Starter Start
+Left Condition Lever Low Idle Max Ng Above 12%
+ITT Less than 1090
+Oil Temp & Press Within Limits
+Left Starter Off at 50% Ng
+L Oil & Fuel Press Annun. Extinguished
+Right Condition Lever Low Idle
+Left Generator Reset then On
+L DC GEN Annunciator Extinguished
+L GEN Load 10-50%
+L GEN Volts 28V
+Batt Amps Positive
+Gen Ties Norm
+Right Generator Hold Reset
+L GEN Volts 28V
+Left Generator Hold Reset
+R GEN Volts 28V
+Annunciators Test & Consider
+Fire Detector Test Cycle
+Fire Annunciators Observe
+Gear Handle Lights Test
+Stall Warning Test
+Gen Ties Open
+GEN TIE Annunciators Illuminated
+CTR Volts Matches Batt Volts
+Gen Ties Norm
+CTR Volts 28V
+Bus Sense Test
+GEN TIE Annunciators Illuminated
+Bus Sense Reset
+GEN TIE Annunciators Extinguished
+TPL FED Volts 28V
+Bleed Air Valves Open
+Pneumatic Pressure Green
+Temperature Mode Auto
+Duct Temperature As Desired
+Vent Blower Auto
+Electric Heater As Required
+Cabin Master On
+Cabin Accessories As Desired
+Gyro Suction Green
+AC Inverters On
+AC BUS Annunciators Extinguished
+AC Frequency 400 Hz
+Weather Radar Off/Standby
+Avionics Master On
+Remote Compass Slaved & Aligned
+Flight Instruments Set
+Audio & Radios Set
+Flight Controls Free & Correct
+Annunciators Consider
+Instrument Flags Consider
+Exterior Lights As Required
+Parking Brake Release
+Brakes Test
+Checklist complete
+Before Takeoff (Runup)
+Parking Brake Set
+Electric Trim Actuate
+Pitch Trim Wheel T/O Position
+Yaw Damper Engage
+Heading Bug 30 Degrees Left
+Autopilot Master Engage
+Autopilot Annunciators Observe
+Autopilot Heading Mode Engage
+Yoke Movement Observe
+Flight Director Bank Left
+Same test on the other side
+Autopilot Disconnect Press
+Anti-Ice Actuators Standby
+Engine Anti-Ice On
+Eng Anti-Ice Annun Illuminate
+Anti-Ice Actuators Main
+Engine Anti-Ice As Required
+Eng Anti-Ice  annunciator As Appropriate
+Power Levers Idle
+Auto-Ignition Arm
+IGNITION Annunciators Illuminate
+Power Levers Advance above ~17% Torque
+IGNITION Annunciators Extinguish
+Power Levers Idle
+IGNITION Annunciators Illuminate
+Auto-Ignition Off
+Prop Gov Test Hold to GOV
+Power Levers Advance through 1600 RPM
+RPM limited to 1600 Observe
+Prop Gov Test Release
+Low Pitch Stop Hold to GND IDLE STOP
+Power Levers Idle
+Low Pitch Stop Release
+Auto-Feather Hold to Test
+Perform Auto feather test
+Auto-Feather Arm
+Windshield Anti-Ice High
+Load Meters Increase
+Windshield Anti-Ice Off
+Propeller De-Ice On
+Prop Amps 26-32 Amps Cycle
+Load Meters Increase
+Propeller De-Ice Off
+Prop Amps 0 Amps
+Surface De-Ice Single Cycle
+Pneumatic Pressure Fluctuate
+Surface De-Ice Hold Manual
+Pneumatic Pressure Fluctuate
+Surface De-Ice Release Manual
+Pressurization Controller 1000ft below field elev.
+Cockpit Windows Closed
+Cabin Press. Mode Hold to Test
+Cabin Alt, Diff & Climb Observe Descent
+Pressurization Controller Set First Assigned Alt
+Cabin Press. Mode Press
+Left Bleed Air Off
+Pneumatic Pressure No Change
+Right Bleed Air Off
+Pneumatic Pressure Zero
+Bleed Air Valves Open
+Flaps As Required
+Flaps Indication Correct
+Fuel Quantities Check
+Flight Instruments Check
+Battery Ammeter Charge Current less than 10A
+Before Takeoff (Cleared)
+Electric Heater Off
+Generator Loads Check
+Battery Ammeter Charging or Zero
+Exterior Lights Set for T/O
+Ice Protection As Required
+Auto-Ignition Arm if Required
+Auto-Feather Arm
+Engine Anti-Ice As Required
+Transponder On/Alt
+Weather Radar As Required
+Propeller Levers Full Forward
+Condition Levers High Idle
+Annunciators Test & Consider
+Parking Brake Release
+Takeoff
+Power Levers T/O Power (See POH)
+AFX Annunciators Both Illuminated Above 88% Ng
+ITT 820 max
+Pitch 10 deg at Vr
+Landing Gear Up
+Landing & Taxi Lights Off
+Autopilot Engage
+Flaps Up at 125kts min
+Cabin Alt, Diff & Climb Observe Climb
+Climb
+Power Levers Climb Power (See POH)
+ITT 785 max
+Propeller Levers 1600 RPM or As Desired
+Prop Sync On
+Engine Instruments Monitor
+Exterior Lights As Required
+Ice Protection As Required
+Windshield Anti-Ice Normal
+Pressurization Controller Set Cruise Alt
+10,000 Feet
+No Smoking & FSB As Required
+Exterior Lights As Required
+Cabin Pressure Monitor
+Transition Altitude
+Altimeters Standard
+Cabin Pressure Monitor
+Cruise
+Power Levers Cruise Power (See POH)
+ITT 765 max
+Auto-Feather Off
+Descent
+Pressurization Controller Set Destination Alt
+Auto-Feather Arm
+Exterior Lights As Required
+Ice Protection As Required
+Altimeters Set Local
+No Smoking & FSB As Required
+Approach
+Exterior Lights As Required
+Ice Protection As Required
+Cabin Alt, Diff & Climb Check Progress
+Fuel Balance Check
+Flaps Approach
+No Smoking & FSB On
+MDA/DA & Radar Alt Set
+Before Landing
+Landing Gear Down & Locked
+Exterior Lights As Required
+Ice Protection As Required
+Engine Anti-Ice As Required
+Prop Sync Off
+Cabin Alt, Diff & Climb Check Progress
+Landing
+Landing Gear Down & Locked
+Flaps Full
+Cabin Differential Zero
+Power Levers Idle
+Propeller Levers Full Forward
+Autopilot Disconnect Press
+Brake As Required
+Power Levers Lift for Reverse
+Power Lever Idle before 30kts
+After Landing
+Engine Anti-Ice As Required
+Auto-Ignition Off
+Exterior Lights As Required
+Ice Protection Off
+Flaps Up
+Cabin Alt, Diff & Climb Verify Zero
+Weather Radar Off/Standby
+Shutdown & Securing
+Parking Brake Set
+Auto-Feather Off
+Exterior Lights As Required
+Oxygen Handles Off
+Emergency Lights On (at night)
+Avionics Master Off
+AC Inverters Off
+Cabin Master Off
+Cabin Accessories As Desired
+Cabin Lights As Required
+No Smoking & FSB Off
+Vent Blower Low
+Temperature Mode Off
+Bleed Air Valves Envir Off
+Aft Blower Off
+Electric Heater Off
+ITT Stabilized
+Power Levers Flight Idle
+Condition Levers Cutoff
+Propeller Levers Feather
+Electrical Switches Off
+Gang Bar Down when Ng 15% or less
+Lighting Master Off
+Parking Brake As Desired
+Emergency Lights Off
