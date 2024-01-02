@@ -9,9 +9,9 @@ voice recognition, on the predefined trigger word "check"
 
 ## Disclaimer:
 
-  Please note, that I am not a programmer whatsoever. I just needed this tool to fly
+  Please note, that I am not a software developer whatsoever. I just needed this tool to fly
   in VR and could not find anything that fit my needs. So I built something myself.
-  Don't expect clean or beautiful code!
+  **Don't expect clean or beautiful code!**
 
   **Also, the voice recognition is super early "alpha stage" 
   There are no guaranties that any of this works ;-)**
