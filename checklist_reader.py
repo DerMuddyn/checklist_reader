@@ -3,8 +3,8 @@ from gtts import gTTS
 import pygame, os, time
 import tkinter as tk
 from tkinter.filedialog import askopenfilename
+from tkinter import messagebox
 import thread
-import speech_recognition as sr
 import pickle
 from pocketsphinx import LiveSpeech
 from tkinter import HORIZONTAL
@@ -12,8 +12,14 @@ from PIL import Image, ImageTk
 import sys
 
 ###### Initialize global Variables ####
-# Path of where the main function is running. We need this to finde the rest of the data files
+# Path of where the main function is running. We need this to find the rest of the data files
 path = str(os.path.dirname(sys.modules['__main__'].__file__))
+
+# Debugging set to True to dump console output to the log file
+debug = True
+f = open(path + "\log.txt", 'w')
+if debug == True:
+    sys.stdout = f
 
 # Current active Checklist Line
 lineindex = 0
@@ -24,6 +30,8 @@ Lines = []
 
 # Flag if the voicerecognition has detected a "check"
 voicecheck = False
+
+
 
 # List of ll Pygame game controllers
 joysticks = []
@@ -38,7 +46,7 @@ refkey = "c"
 lastbuttonpressed = [0, 0]
 
 # ID ot the checkbutton and th4 device id
-checkbutton = [0, 0]
+checkbutton = [1000, 0]
 
 # GUI Style
 background = "#779198"
@@ -48,9 +56,10 @@ font = ('Arial', 7)
 
 # Flag if speech recognition is active
 listen = False
-
-# Set the tollerance for voice recognition
-sensint = 20
+# Should voicerecognition use your default language model?
+langmodel = True
+# Set the default tollerance for voice recognition
+sensint = -20
 
 
 # Load stored settings from "conf" file. So you dont have to set the checkbutton each time the app is started
@@ -69,7 +78,6 @@ def load():
     # Overwrite the global variables with the values from the "conf" file
     refkey = loaded_data[0]
     checkbutton = loaded_data[1]
-    print("now")
     print(checkbutton)
     sensint = int(loaded_data[2])
 
@@ -147,8 +155,8 @@ def text_to_speech(text):
     # the speech file is written / overwritten with the converted text that was passed to the function
     try:
         speech.save(speech_file)
-    except:
-        print("Error")
+    except Exception as X:
+        print(X)
 
     # Load the speechfile into pygame mixer and then play it
     pygame.mixer.music.load(speech_file)
@@ -222,11 +230,13 @@ def buttondisplay(button, joy):
 
 # Taking the last pressed joystick button and set them as Checkbutton
 def buttonselect():
+
     global checkbutton
     global lastbuttonpressed
 
     # Just sets the last pressed button as the checkbutton. The next function is called, so that the label gets refreshed
     checkbutton = lastbuttonpressed
+    print(checkbutton)
     checkbuttondisplay()
 
 
@@ -235,23 +245,24 @@ def checkbuttondisplay():
     global checkbutton
 
     # Same as before. We try to destroy the lable, and afterwards we create a new one
-    try:
-        global checkbuttonlable
-        global checkbuttonlable2
-        checkbuttonlable.after(1, checkbuttonlable.destroy())
-        checkbuttonlable2.after(1, checkbuttonlable2.destroy())
-    except:
-        pass
+    if checkbutton != [1000,0]:
+        try:
+            global checkbuttonlable
+            global checkbuttonlable2
+            checkbuttonlable.after(1, checkbuttonlable.destroy())
+            checkbuttonlable2.after(1, checkbuttonlable2.destroy())
+        except:
+            pass
 
-    # initializing a lable, telling the user the set checkbutton. The first
-    checkbuttonlable = tk.Label(root, text="Check Button: " + str(checkbutton[0]), font=font,
-                                bg=seconderycolor)
-    checkbuttonlable.place(relx=0.988, rely=0.298, anchor='e', width=93, height=20)
+        # initializing a lable, telling the user the set checkbutton. The first
+        checkbuttonlable = tk.Label(root, text="Check Button: " + str(checkbutton[0]), font=font,
+                                    bg=seconderycolor)
+        checkbuttonlable.place(relx=0.988, rely=0.298, anchor='e', width=93, height=20)
 
 
-    # initializing a lable telling the name of the joystick that holds the checkbutton
-    checkbuttonlable2 = tk.Label(root, text=str(jname[checkbutton[1]]), font=font, bg=seconderycolor)
-    checkbuttonlable2.place(relx=0.988, rely=0.33, anchor='e', width=93, height=20)
+        # initializing a lable telling the name of the joystick that holds the checkbutton
+        checkbuttonlable2 = tk.Label(root, text=str(jname[checkbutton[1]]), font=font, bg=seconderycolor)
+        checkbuttonlable2.place(relx=0.988, rely=0.33, anchor='e', width=93, height=20)
 
 
 ### Funkctions for Speech recognition ####
@@ -280,12 +291,17 @@ def stoplistbutton():
 
 # This function is called to start the voice recognition. listen is set to ture and a new thread is started that runs the
 # voice recognition stuff
+
+
 def startspeech():
+    global t
     global listen
     listen = True
 
     # Starting the new thread
-    thread.Thread(target=speechrec).start()
+
+    t.daemon = True
+    t.start()
 
     # Changing the button for one, that says "stop listening"
     stoplistbutton()
@@ -293,6 +309,8 @@ def startspeech():
 
 def stopspeech():
     global listen
+    global t
+
 
     # Changing this flag stops the voice recognition thread
     listen = False
@@ -301,29 +319,33 @@ def stopspeech():
     startlistbutton()
 
 
+
 # This is the actual voice recognition function. This will allways run in a separate thread as it is blocking
 def speechrec():
     global listen
     global voicecheck
     global sensint
+    global langmodel
 
     # setting up voice recognition
-    r = sr.Recognizer()
+    #r = sr.Recognizer()
+
 
     # sensint contains the value from the tolerance slider. Here it is used as an exponent in a float
     # Pocketshpinx takes a float as threshold value for keyword recognition
     sensitivity = float(1 * pow(10, int(sensint)))
     print("Starting speech recognition with tolerance: " + str(sensitivity))
-
     # Starting the (blocking) speechrecognition loop.
     while listen == True:
         # before processing the results, we check if the listen flag is still True. If not, we want the function
         # to run to the end, so that the thread can end and voice recognition stop
-        if listen == False:
-            break
-        # Looking for keyword "check" with set sensitivity
-        speech = LiveSpeech(keyphrase='check', kws_threshold=sensitivity)
 
+        # Looking for keyword "check" with set sensitivity
+        if langmodel == True:
+            speech = LiveSpeech(keyphrase='check', kws_threshold=sensitivity)
+        else:
+            speech = LiveSpeech(keyphrase='check', kws_threshold=sensitivity, lm=False)
+        #speech = LiveSpeech(keyphrase='check', kws_threshold=1e-20)
         # the result is handed as list.
         for phrase in speech:
             # This is only going to give you an entry in the list if the word "check" was found. So we set the global
@@ -338,6 +360,10 @@ def speechrec():
             print("Voce activated Check: " + str(phrase.segments(detailed=True)))
 
 
+# Set a global variable for the voicerecognition thread we will be starting
+t = thread.Thread(target=speechrec)
+
+
 # Settolerance is called when the tollerance slider is moved. Its ment to change the sensitivity val (sensiint) and stop
 # and restart voicerecognition with the new value
 def settollerance(val):
@@ -349,6 +375,10 @@ def settollerance(val):
         stopspeech()
         startspeech()
 
+def messagebox():
+    mymessage="""Welcome to my Checklist Reader Version 0.1
+Please be aware, that the voice recognition feature is experimental. There might not be a working sensitivity setting for your setup"""
+    tk.messagebox.showinfo(title="Welcome", message=mymessage)
 
 
 # Kill the app
@@ -363,6 +393,7 @@ def exitapp():
 
 
 
+
 ## Pygame initialisieren und Controller abfragen
 pygame.init()
 controllersetup()
@@ -373,7 +404,7 @@ controllersetup()
 root = tk.Tk()
 root.title('Checklist reader - v0.1')
 root.resizable(False, False)
-root.geometry('450x600+100+100')
+root.geometry('450x600')
 root["bg"] = background
 
 
@@ -412,7 +443,7 @@ tolerance""", font=font, bg=seconderycolor)
 tolerancelable.place(relx=0.988, rely=0.385, anchor='e', width=93, height=30)
 
 ### Speech rec tolerance slider ###
-toleranceslider = tk.Scale(root, from_=40, to=-40, width=15, length=88, orient=HORIZONTAL, bg=seconderycolor,
+toleranceslider = tk.Scale(root, from_=30, to=-40, width=15, length=88, orient=HORIZONTAL, bg=seconderycolor,
                            command=settollerance, showvalue=False)
 # Set its value
 toleranceslider.set(sensint)
@@ -441,10 +472,15 @@ exit_button = tk.Button(root, text="Quit", command=exitapp, width=12, height=3)
 exit_button.place(relx=0.99, rely=0.94, anchor='e')
 
 
-
-
-
-
+### First startup message box ###
+# Check if the config file is pressent. If not, this seems to be first time the app is started so a Message is displayed
+filepath = str(path) + '\save.cfg'
+check_file = os.path.isfile(filepath)
+if check_file == True:
+    print("No startup message necessary")
+else:
+    print("Display first startup message")
+    messagebox()
 
 
 
@@ -454,6 +490,9 @@ exit_button.place(relx=0.99, rely=0.94, anchor='e')
 def main():
     global root
     global voicecheck
+    global debug
+    global lastbuttonpressed
+    global listen
 
     ## Load Checkbuttonsettings from last session
     try:
@@ -464,8 +503,9 @@ def main():
 
     # Starting the main pygame loop. This one is blocking!
     running = True
-    print("running")
     while running:
+
+
 
         try:
             # I use root.update() in order to update the GUI in a pygame loop. Otherwise Tkinter main loop would be blocking in and
