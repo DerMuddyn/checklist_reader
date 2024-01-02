@@ -1,0 +1,6 @@
+No startup message necessary
+now
+[1000, 0]
+settings restored
+[1, 0]
+Settings saved
