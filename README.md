@@ -16,22 +16,21 @@ voice recognition, on the predefined trigger word "check"
   **Also, the voice recognition is super early "alpha stage" 
   There are no guaranties that any of this works ;-)**
 
-  Still, this was a lot work for me, so if like what I did please consider leaving a small donation
+  Still, this was a lot work for me, so if you like what I did please consider leaving a small donation
  
  [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)]( https://www.paypal.com/donate/?hosted_button_id=MACUKZ7GTNKB4) 
 
 ## Installation:
 
-  - Get the installer I will provide on ###WORK IN PROGRESS### just install the app an run it.
+  - Just run the installation executable from the installer v0.1 folder. This should create a working shortcut in your start menu
     Under the hood, this is a pynsist installer, installing an instance of python 3.11 and running the script inside.
     That's why the installer is not super tiny.
 
     or
 
-    Get the code from my Github: https://github.com/DerMuddyn/checklist_reader
-  - So you could install Python 3.11 with all missing dependencys and run it directly in python
-  - If you want to build an installer yourself, get pynsist. I recommend using the installer.cfg i provided.
-    It will still be some work for you to get this to work as my app is dependent on tkinter, whish comes with extra steps in pynsist
+    
+  - Get the code, install Python 3.11 with all missing dependencys and run it directly in python
+  - If you want to build an installer yourself, get pynsist. I recommend using the installer.cfg I provided.
   - Or if you feel like it, pack the application into an executable with something like py2exe
     
     
