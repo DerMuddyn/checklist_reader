@@ -11,5 +11,189 @@ Voltmeter/Amp VDC/AMP - CHECK
 Pitot Heat Switch - ON - CHECK BLUE ANNUNCIATOR 
 Exterior Lights (Over head) - CHECK 
 Fuel Quantity - CHECK 
-Oxygen Supply Control Knob (right side)..........OFF 
-Oxygen Pressur Gauge (right side).....................CHECK Windows..........................................................CHECK CLEAN
+Oxygen Supply Control Knob (right side) - OFF 
+Oxygen Pressur Gauge (right side) - CHECK 
+Windows - CHECK CLEAN
+OUTSIDE CHECKS - COMPLETE
+Manual Pushback - AS REQUESTED
+Tow Bar and Baggage - STOW PROPERLY - SECURED
+Baggage Door - CLOSED
+Rocker Switches - ALL OFF
+Master Swicth - OFF
+Chocks/Tie-Downs/Towbar (Tablet) - REMOVED
+BEFORE ENGINE START CHECKLIST
+Parking Brake - SET
+Landing Gear Switch - DOWN
+Passengers - BOARDED
+Passenger Briefing - COMPLETED
+Cabin Door - CLOSED & SECURED
+Seats/Seat Belts, Shoulder Harness - ADJUST & SECURED
+Magneto/Starter Switch - OFF
+Master Switch - OFF
+Alternator Switch - OFF
+Radio Master Switch - OFF
+Fuel Boost Pump Switches - OFF
+Circuit Breakers - ALL IN
+ELT Switch - ARMED
+Rocker Switches - ALL OFF
+Alternate Static Source (CP) - Push OFF
+Defrost (CP) - Push OFF
+Cabin Heat (CP) - Push OFF
+Cabin Vent (CP) - AS DESIRED
+Throttle - CLOSED
+Propeller - FULL FORWARD
+Mixture - IDLE CUT-OFF
+Flaps Switch - UP
+Fuel Selector (Floor) - PROPPER TANK (Fullest)
+Red Emergency Gear Handle (between seats) - DOWN
+Internal Lights - OFF
+Normal ENGINE START Checklist
+Throttle - FULL OPEN
+Propeller - FULL FORWARD
+Mixture - FULL RICH
+Master Switch - ON
+Alternator Switch - ON
+Beacon - ON
+NAV Lights - ON
+Annunciator Lights - PRESS TO TEST
+LOW Fuel Boost Pump - ON
+Throttle - IDLE
+Propeller Area - CLEAR
+Magneto/Starter Switch - START - relase to BOTH when engine starts
+Throttle - IDLE - 600 – 700 RPM
+Engine Oil Pressure - CHECK. If minimum oil pressure (10 PSI) is not indicated within 30 seconds, shut down the engine!
+LOW Fuel Boost Pump - OFF
+Ammeter - CHECK
+Fuel Flow Indicator - CHECK/RESET IF DESIRED
+Throttle - 900/1.000 RPM
+Mixture - ADJUST FOR SMOOTH OPERATION
+BEFORE TAXI Checklist
+Radio Master Switch  - ON
+Avionics/GPS/Autopilot - SET & PROGRAMMED
+NAVI/CDI -  SET GPS IF REQUESTED
+Transponder - SET & STBY
+Altimeter - SET LOCAL QNH
+Elevator Trim Switch - ON
+Pitot Heat - ON
+Internal Lights - AS DESIRED
+STBY VAC Switch - ON - CHECK RED ANNUNCIATOR
+Fuel Selector (Floor) - switch tanks an verify engine runs
+Defrost(CP) - AS DESIRED
+Cabin Heat (CP) - AS DESIRED
+Cabin Vent (CP) - AS DESIRED
+Flight Instruments - CHECK
+Flight Controls - CHECK MOVEMENT
+ATC Clearances - AS REQUESTED
+Taxi Lights (OH) - ON
+Recog. Lights (OH) - ON
+Propeller - FULL FORWARD
+Mixture - FULL RICH or BLUE ARC
+Parking Brake - RELEASE
+Brakes - CHECK
+Steering - CHECK
+CHECKLIST COMPLETE
+BEFORE TAKEOFF CHECKLIST
+Parkin Brake - SET
+Fuel Selector - PROPER TANK (Fullest)
+Throttle - 1.000 RPM
+Propeller - FULL FORWARD
+Mixture - FULL RICH
+Alternate Air - CLOSED
+Alternator Switch - CHECK ON
+Throttle - 2.000 RPM
+Magneto Switch - BOTH to L, BOTH to R, BOTH. Verifiy engines operates smoothly on each magneto seperately. Max Drop 150 RPM. Max. DIFF. 50 RPM
+Propeller Exercise - FULL CYCLE then FULL FORWARD
+Ammeter - CHECK positive Charge
+Throttle - 1.000 RPM
+LOW Fuel Boost Pump - ON - CHECK BLUE ANNUNCIATOR
+LOW Fuel Boost Pump - OFF
+Elevator Trim - SET FOR TAKEOFF
+Rudder Trim - SET FOR TAKEOFF
+Flaps - CHECK OPERATION
+Flaps - SET FOR TAKEOFF (10°)
+Flight Controls - CHECK FREE MOVEMENT
+Cabin Door - CHECK SECURED
+Seats/Seat Belts, Shoulder Harness - CHECK SECURED
+Pilots Window - CLOSED
+Red Emergency Gear Handle (betw.seats) - DOWN
+Oil Temp - CHECK min. 75° F (24°C)
+CHTCHECK min. 250°F(121°C)
+Avionics/GPS/Autopilot - CHECK SET
+NAVI/CDI - CHECK SET GPS IF REQUESTED
+Transponder - ON
+Altimeter - CHECK SET LOCAL QNH
+Strobe Lights - ON
+Landing Lights. - ON or AS REQUESTED
+ATC Clearances - AS REQUESTED
+Parking Brake - RELEASE
+NORMAL TAKEOFF Procedure
+line up and brake. set Throttle to 2.000 RPM. relase Brakes. apply Throttle FULL (2.500 RPM). rotate @ 59 - 66 KIAS (dep.on weight). retract Gear @ positive VS (before 111 KIAS!). Initial Climb @ 85 KIAS (Best Angle Of Climb) .or @ 105 KIAS (Best Rate Of Climb)
+CRUISE CLIMB CHECKLIST
+Flaps - CHECK UP
+Landing Gear - CHECK UP
+Climb Power 24 in.HG MAN @ 2.500 RPM. Climb Speed 120 KIAS
+Mixture FULL RICH or BLUE ARC on EGT
+@ Transition Altitude
+Altimeter - SET STD QNE
+@10.000 ft / FL100
+Landing Lights - OFF
+CRUISE
+Oxygen System - ON IF REQUIRED
+LOW Fuel Boost Pump - use ON if fuel flow fluctuations accure due to hot weather conditions
+FUEL TANK SELECTION (every 30 min) 
+LOW Fuel Boost Pump - ON
+Fuel Selector- switch to OPPOSITE TANK
+LOW Fuel Boost Pump - OFF
+POWER SETTINGS Economy
+For Max. Economy - lean to 50° LEAN of EGT Peak
+65 % Power (Econmy Cruise) 
+Fuel Flow ~ 12 - 14 GPH 
+22 in. HG MAN 2300 to 2400 RPM
+DESCENT Checklist
+Avionics/GPS/Autopilot - SET
+ILS Frequency - COMPARE AND CHECK SET
+NAVI/Flightplan - ACTIVATE APPROACH IF REQUIRED
+Avoid extended desecents at low manifold pressure, to prevent excessive engine cooling!
+Speed/Sinkrate 140 -150 KIAS @ 750 – 1.000 fpm. Power in.HG as req @ 2.400 RPM
+Mixture BLUE ARC or PEAK EGT (monitor during descent)
+Sinkrate for a 3° glidepath - 5 x Ground Speed 
+@ 10.000 ft / FL100
+Landing Lights - ON/AS REQUESTED
+@ Transition Flightlevel
+Altimeter - SET LOCAL QNH
+APPROACH
+@ ~ 15 NM to go
+ATC Clearances - AS REQUESTED
+NAVI/CDI - SET VLOC IF REQ. FOR ILS
+Fuel Selector - PROPPER TANK (Fullest)
+Landing Lights - ON or AS REQIRED
+Fuel Boost Pump - OFF
+Propeller - FULL FORWARD
+Mixture - FULL RICH
+Altimeter - CHECK/SET LOCAL QNH
+Seats/Seat Belts, Shoulder Harness - CHECK SECURED
+ILS APPROACH & LANDING
+approach @ ~ 3.000 ft above destination airport elevation  or use proper procedure altitudes
+@ 15 - 12 NM to go reduce Speed to ~ 120 KIAS
+@ 6 NM to go. Landing Gear DOWN. Flaps 1 (10°). start reducing Speed to ~ 90 KIAS
+@ 3 NM to go. Flaps FULL (40°). Speed on final ~ 68 - 75 KIAS (dep.on weight). Autopilot OFF (latest at 200 ft AGL)
+Landing Gear - CHECK 3 GREEN
+Flaps - CHECK SET
+RPM - CHECK FULL FORWARD 
+AFTER LANDING
+Flaps - RETRACT
+Fuel Boost Pump - OFF
+Taxi Light - ON
+Landing Lights - OFF
+Strobes - OFF
+PARKING / SHUT DOWN
+Parking Brake - SET
+Throttle - IDLE
+Avionics - OFF
+Pitot Heat - OFF
+Propeller - FULL FORWARD
+All Lights - OFF
+Mixture - IDLE-CUT OFF
+Alternator - OFF
+Master Switch - OFF
+Magneto/Starter Switch - OFF
